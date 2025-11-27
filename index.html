@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penugasan Frontend GDGoC UGM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="top-bar-container">
+        <div class="top-bar-left">
+          <span>
+            <img src="assets/telp.svg" />
+            <i class="fas fa-phone"></i>
+            (225) 555-0118
+          </span>
+          <span>
+            <i class="fas fa-envelope"></i>
+            farhanrizkyalkarim@mail.ugm.ac.id
+          </span>
+        </div>
+        <div class="top-bar-center">
+          Follow Us and get a chance to win 80% off
+        </div>
+        <div class="top-bar-right">
+          <span>Follow Us :</span>
+          <div class="social-icons">
+            <a href="#"><img src="assets/ig.svg" /></a>
+            <a href="#"><img src="assets/yt.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">Bookstar</a>
+
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <a href="#" class="login-btn">
+            <img src="assets/orang.svg" />
+            <i class="far fa-user"></i>
+            Login / Register
+          </a>
+          <a href="#">
+            <i class="fas fa-search">
+              <img src="assets/cari.svg" />
+            </i>
+          </a>
+          <a href="#" class="icon-with-badge">
+            <i class="fas fa-shopping-cart">
+              <img src="assets/keranjang.svg" />
+            </i>
+            <span class="badge">1</span>
+          </a>
+          <a href="#" class="icon-with-badge">
+            <i class="far fa-heart">
+              <img src="assets/love.svg" />
+            </i>
+            <span class="badge">1</span>
+          </a>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Pages</a></li>
+      </ul>
+
+      <div class="mobile-nav-icons">
+        <a href="#">
+          <img src="assets/orang.svg" />
+          <i class="far fa-user"></i>
+          Login / Register
+        </a>
+        <a href="#">
+          <i class="fas fa-search">
+            <img src="assets/cari.svg" />
+          </i>
+        </a>
+        <a href="#" class="icon-with-badge">
+          <i class="fas fa-shopping-cart">
+            <img src="assets/keranjang.svg" />
+          </i>
+          <span class="badge">1</span>
+        </a>
+        <a href="#" class="icon-with-badge">
+          <i class="far fa-heart">
+            <img src="assets/love.svg" />
+          </i>
+          <span class="badge">1</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="breadcrumb"><a href="#">Home</a> > <span>Shop</span></div>
+
+    <div class="mobile-breadcrumb" id="mobileBreadcrumb">
+      <a href="#">Home</a> > <span>Shop</span>
+    </div>
+
+    <section class="product-detail">
+      <div class="product-container">
+        <div class="product-slider">
+          <button class="slider-btn prev-btn" id="prevBtn">
+            <img src="assets/left.svg" alt="Previous"/>
+          </button>
+          <div class="product-image">
+            <img
+              src="assets/buku.png"
+              alt="Beyond the Stars"
+              id="productImage"
+            />
+          </div>
+          <button class="slider-btn next-btn" id="nextBtn">
+            <img src="assets/right.svg" alt="Next"/>
+          </button>
+        </div>
+
+        <div class="product-info">
+          <div class="product-tags">
+            <span class="tag">Self Improvement</span>
+            <span class="tag">Technology</span>
+          </div>
+
+          <h1 class="product-title">Beyond the Stars</h1>
+          <p class="product-price">$1,139.33</p>
+
+          <div class="product-availability">
+            <span class="availability-label">Availability :</span>
+            <span class="availability-status in-stock">In Stock</span>
+          </div>
+
+          <p class="product-description">
+            Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+            RELIT official consequent door ENIM RELIT Mollie. Excitation venial
+            consequent sent nostrum met. Auchor Marcus peon.
+          </p>
+
+          <div class="product-details">
+            <p><strong>Pages:</strong> 328</p>
+            <p><strong>Publisher:</strong> Nor House Books</p>
+            <p><strong>ISBN:</strong> 978-1-234567-89-0</p>
+            <p><strong>Published:</strong> January 20, 2024</p>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn-primary">
+              <i class="fas fa-shopping-cart"></i>
+              Buy Now
+            </button>
+            <button class="btn-icon" id="wishlistBtn">
+              <img src="assets/like.svg" alt="Like"/>
+            </button>
+            <button class="btn-icon">
+              <img src="assets/basket.svg" alt="Cart"/>
+            </button>
+            <button class="btn-icon">
+              <img src="assets/more.svg" alt="More"/>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reading-list">
+      <div class="reading-list-container">
+        <h2 class="section-title">Your Reading List</h2>
+
+        <div class="reading-grid" id="readingGrid">
+          <div class="reading-card">
+            <div class="reading-image">
+              <img
+                src="assets/buku1.png"
+                alt="Graphic Design"
+              />
+            </div>
+            <div class="reading-info">
+              <h3 class="reading-title">Graphic Design</h3>
+              <p class="reading-department">Business</p>
+              <div class="reading-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reading-card">
+            <div class="reading-image">
+              <img
+                src="assets/buku2.png"
+                alt="User Experience"
+              />
+            </div>
+            <div class="reading-info">
+              <h3 class="reading-title">User Experience</h3>
+              <p class="reading-department">Engineering</p>
+              <div class="reading-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reading-card">
+            <div class="reading-image">
+              <img
+                src="assets/buku3.png"
+                alt="My Little Sea"
+              />
+            </div>
+            <div class="reading-info">
+              <h3 class="reading-title">My Little Sea</h3>
+              <p class="reading-department">Fantasy</p>
+              <div class="reading-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reading-card">
+            <div class="reading-image">
+              <img
+                src="assets/buku4.png"
+                alt="Tiana Obrien II"
+              />
+            </div>
+            <div class="reading-info">
+              <h3 class="reading-title">Tiana Obrien II</h3>
+              <p class="reading-department">Self Improvement</p>
+              <div class="reading-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="books-for-you">
+      <div class="books-container">
+        <h2 class="section-title">Books For You</h2>
+
+        <div class="books-grid" id="booksGrid">
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku1.png"
+                alt="Graphic Design"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">Graphic Design</h3>
+              <p class="book-department">Business</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku2.png"
+                alt="User Experience"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">User Experience</h3>
+              <p class="book-department">Engineering</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku3.png"
+                alt="My Little Sea"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">My Little Sea</h3>
+              <p class="book-department">Fantasy</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku4.png"
+                alt="Tiana Obrien II"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">Tiana Obrien II</h3>
+              <p class="book-department">Business</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku1.png"
+                alt="Graphic Design"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">Graphic Design</h3>
+              <p class="book-department">Business</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku2.png"
+                alt="User Experience"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">User Experience</h3>
+              <p class="book-department">Engineering</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku3.png"
+                alt="My Little Sea"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">My Little Sea</h3>
+              <p class="book-department">Fantasy</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-image">
+              <img
+                src="assets/buku4.png"
+                alt="Tiana Obrien II"
+              />
+            </div>
+            <div class="book-info">
+              <h3 class="book-title">Tiana Obrien II</h3>
+              <p class="book-department">Business</p>
+              <div class="book-pricing">
+                <span class="original-price">$16.48</span>
+                <span class="sale-price">$6.48</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <!-- <script src="api.js"></script> -->
+  </body>
+</html>
