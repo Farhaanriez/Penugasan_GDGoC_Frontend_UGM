@@ -1235,9 +1235,6 @@ body {
   }
 }
 
-/* ===================================
-   FILTER PANEL STYLES - UPDATED
-   =================================== */
 .filter-panel {
   background: white;
   padding: 20px;
@@ -1371,19 +1368,3 @@ body {
   }
 }
 
-/* ===================================
-   PRODUCT SLIDER BUTTON STATES
-   =================================== */
-/* .slider-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.slider-btn:not(:disabled):hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    transform: scale(1.1);
-}
-
-.slider-btn:not(:disabled):active {
-    transform: scale(0.95);
-} */
